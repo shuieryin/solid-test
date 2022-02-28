@@ -1,4 +1,4 @@
 import { render } from "solid-js/web";
-import Counter from "./Counter";
+import App from "./App";
 
-render(() => <Counter />, document.getElementById("app"));
+render(() => <App />, document.getElementById("app"));
