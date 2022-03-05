@@ -3,6 +3,8 @@
 		"start": "webpack-dev-server"
 	},
 	"dependencies": {
+		"gstatem": "^1.0.5",
+		"solid-gstatem": "^1.0.0-alpha.2",
 		"solid-js": "^1.3.9"
 	},
 	"lint-staged": {

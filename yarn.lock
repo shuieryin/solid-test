@@ -2183,6 +2183,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.4, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
+gstatem@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmmirror.com/gstatem/-/gstatem-1.0.5.tgz#33334d5d6341502d7710800eaf90089f8f53eeea"
+  integrity sha512-44ETpi9+pt3yiid+FvKYIXghVAV0onvsCgybYwKWLPHpsT8M/OZCSID0tGjyxq2iMOb+57V/xfzL2GVfprSMxg==
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmmirror.com/handle-thing/-/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
@@ -3727,6 +3732,13 @@ sockjs@^0.3.21:
     faye-websocket "^0.11.3"
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
+
+solid-gstatem@^1.0.0-alpha.2:
+  version "1.0.0-alpha.2"
+  resolved "https://registry.npmmirror.com/solid-gstatem/-/solid-gstatem-1.0.0-alpha.2.tgz#2eb0d1737d69d0ed8c0bb73469c1b074fd2366ec"
+  integrity sha512-LCCgUc/ZefwcDpuT2Z4m6e7xirpjjNavP/k3X+4gefUtaOTzBOoFT1Sq89Z9/8H5DUDvgnoTwGmLDoOA4S59oQ==
+  dependencies:
+    gstatem "^1.0.5"
 
 solid-hot-loader@^0.0.5:
   version "0.0.5"

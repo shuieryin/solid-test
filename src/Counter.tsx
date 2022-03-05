@@ -10,7 +10,7 @@ const Counter: Component = () => {
 		<div>
 			<span>Clicked: {count()} times</span>{" "}
 			<button onClick={onIncrement}>+</button>{" "}
-			{onReset && <button onClick={onReset}>Reset</button>}
+			<button onClick={onReset}>Reset</button>
 		</div>
 	);
 };
