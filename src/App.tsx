@@ -1,5 +1,6 @@
 import Counter from "./Counter";
 import CounterWithEffect from "./CounterWithEffect";
+import CounterWithDevTools from "./CounterWithDevTools";
 
 const App = () => (
 	<>
@@ -8,6 +9,9 @@ const App = () => (
 		</p>
 		<p>
 			With effect <CounterWithEffect />
+		</p>
+		<p>
+			With devtools <CounterWithDevTools />
 		</p>
 	</>
 );

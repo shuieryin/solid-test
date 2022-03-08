@@ -3609,10 +3609,17 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.4, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-gstatem@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.npmmirror.com/gstatem/-/gstatem-1.0.5.tgz#33334d5d6341502d7710800eaf90089f8f53eeea"
-  integrity sha512-44ETpi9+pt3yiid+FvKYIXghVAV0onvsCgybYwKWLPHpsT8M/OZCSID0tGjyxq2iMOb+57V/xfzL2GVfprSMxg==
+gstatem-devtools@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gstatem-devtools/-/gstatem-devtools-1.0.6.tgz#84efa7e0060c0fbbbaf2cc34dad43bac67acc574"
+  integrity sha512-Ctnv9uIapaQKFepE4aKrVmlHj1vB7E7M0eOd/0N/70ld++LcQ3+oqfntNYmYzxHbA+tP9qYL6JXXYz0nWPBTSA==
+  dependencies:
+    gstatem "^1.0.6"
+
+gstatem@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/gstatem/-/gstatem-1.0.6.tgz#45da7fe7e001a6e99cefd79cc712aca5797750cd"
+  integrity sha512-vAysdjVLnCtk6Gg9oDzBizwnuRdyt+2STIsJBZqrOHim1rOT/5eRRRB/GgZc/8LEZEg6uAUE5poYNzbBMTiXIA==
 
 handle-thing@^2.0.0:
   version "2.0.1"
@@ -5909,12 +5916,12 @@ sockjs@^0.3.21:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
-solid-gstatem@^1.0.0-alpha.3:
-  version "1.0.0-alpha.3"
-  resolved "https://registry.npmmirror.com/solid-gstatem/-/solid-gstatem-1.0.0-alpha.3.tgz#5e8e86f3474f69d06d6b01d34a5b8da673d3bb07"
-  integrity sha512-AkrNb+FELE/ABriYK6NTudeY1GpJc0+Siyy1NgOWA33VlZg9ahaHd8ZeuTLUzq4/8fhs7dItt/YnzC6PP9jtJA==
+solid-gstatem@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/solid-gstatem/-/solid-gstatem-1.0.1.tgz#8c09c9433a4323ffa787f28bb32e9568b843d7e9"
+  integrity sha512-S93H3RD9HpmVewqYdub2PhagSMr8pE7Y2TocOuiKIvdxyDBN9DbWfXHJth4brIQVyIfPE/WkLAZ6Ayvv6VtBuA==
   dependencies:
-    gstatem "^1.0.5"
+    gstatem "^1.0.6"
 
 solid-hot-loader@^0.0.5:
   version "0.0.5"
