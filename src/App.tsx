@@ -1,6 +1,7 @@
 import Counter from "./Counter";
 import CounterWithEffect from "./CounterWithEffect";
 import CounterWithDevTools from "./CounterWithDevTools";
+import MultiStores from "./MultiStores";
 
 const App = () => (
 	<>
@@ -12,6 +13,9 @@ const App = () => (
 		</p>
 		<p>
 			With devtools <CounterWithDevTools />
+		</p>
+		<p>
+			Multiple stores <MultiStores />
 		</p>
 	</>
 );
