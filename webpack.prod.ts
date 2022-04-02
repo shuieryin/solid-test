@@ -1,7 +1,6 @@
 import { Configuration } from "webpack/types";
 
 const webpackConfig = require("./webpack.config");
-const { optimization } = require("../../webpack.shared");
 
 module.exports = {
 	...webpackConfig,
@@ -10,7 +9,6 @@ module.exports = {
 		filename: "[name].js",
 		path: require("path").resolve(__dirname, "dist")
 	},
-	optimization,
 	devtool: undefined,
 	devServer: undefined
 } as Configuration;
