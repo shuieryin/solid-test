@@ -3609,17 +3609,17 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.4, graceful-fs@^4.2.6, graceful-fs@^4.2.9:
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
-gstatem-devtools@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gstatem-devtools/-/gstatem-devtools-1.0.12.tgz#84be7250c38c5e5a914804dbec25ededb477dd4d"
-  integrity sha512-iUIbW/55b7f/YYXNH1tEtzKyZe0gqy/T1atZcgoiLWKh/R6VFAf7m3pdPUixnKzv+oFVJ95KetvxF6F0ZNf1lA==
+gstatem-devtools@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/gstatem-devtools/-/gstatem-devtools-1.0.14.tgz#923540d2259c3321f9407522f62032ae131f2319"
+  integrity sha512-4m6s19q9qY+X6T1kFzFDq7462GOMBvwMR/floXXxcVSFsg+aasiN1BFMXxPD3qP4avjs2CfXlGfWv+sewMapAw==
   dependencies:
-    gstatem "^1.0.12"
+    gstatem "^1.0.14"
 
-gstatem@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gstatem/-/gstatem-1.0.12.tgz#ee6dcc389ae49a82d94043cd990f6f86dcb74b8e"
-  integrity sha512-ZTsfPRKErldSrQrHHkNu6Rxork3ALD01RaMAQOzee7cpA4U4JwXuJlhtyXIrzUd0/SjPYFfOGGURcnwZcCumBw==
+gstatem@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/gstatem/-/gstatem-1.0.14.tgz#a7fac2b01440037acbefe8d5ca7f048132ef5ce1"
+  integrity sha512-k4yL4jQd0DzkG5Q7DtVbSqyGNce3d0EqXufR8NlfmJEVVRYzEUywY0Kw7mtEc60zbyJvVoimIQs32uVQ15tddA==
 
 handle-thing@^2.0.0:
   version "2.0.1"
@@ -5916,12 +5916,12 @@ sockjs@^0.3.21:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
-solid-gstatem@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/solid-gstatem/-/solid-gstatem-1.0.7.tgz#fa459b3ba8e81c9eaea1ffa3fdc41d648e395a72"
-  integrity sha512-iu2rDRmN2QpXjKLlHwP9KNcb0OHDyyYNlypX9prGagbwh8QNbLTSnbGS3FBO/+02UT+rGj4wzBZQv6F3dFfWRQ==
+solid-gstatem@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/solid-gstatem/-/solid-gstatem-1.0.9.tgz#4ca1f1098590604fccee31002cf185e31a1fdb47"
+  integrity sha512-SAFcJW2Ktu59B3Zut4b2LKK7EXtJwNNu7+q07Isr4X5rmh/Fr5ve6m48JCDyz+CMnH7kVVwLLDzTQ4mmdHsF1A==
   dependencies:
-    gstatem "^1.0.12"
+    gstatem "^1.0.14"
 
 solid-hot-loader@^0.0.5:
   version "0.0.5"

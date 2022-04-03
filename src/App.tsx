@@ -5,6 +5,7 @@ import CounterWithDevTools from "./CounterWithDevTools";
 import MultiStores from "./MultiStores";
 import SilentMode from "./SilentMode";
 import CustomEqual from "./CustomEqual";
+import SolidStoreCounter from "./SolidStoreCounter";
 
 const App = () => (
 	<div class="container">
@@ -25,6 +26,9 @@ const App = () => (
 		</p>
 		<p class="example">
 			Custom equal <CustomEqual />
+		</p>
+		<p class="example">
+			Solid Store <SolidStoreCounter />
 		</p>
 	</div>
 );
